@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document Comparator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Compare Two Documents</h1>
+        <form id="compareForm">
+            <label for="file1">First Document:</label>
+            <input type="file" id="file1" name="file1" accept=".txt, .doc, .pdf" required><br><br>
+            
+            <label for="file2">Second Document:</label>
+            <input type="file" id="file2" name="file2" accept=".txt, .doc, .pdf" required><br><br>
+            
+            <button type="submit">Compare</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
